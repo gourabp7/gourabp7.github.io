@@ -98,7 +98,16 @@ content:
         quote: >
           Established in 1909, IISc is India’s premier institute for advanced scientific and technological research and education. In 2018, IISc was selected as an Institution of Eminence (IoE) by the Government of India, and it consistently figures among the top Indian institutions in world university rankings.
         description: | # this will include new lines to allow paragraphs
-          During my time at IISc I learnt most of my key skills that have taken me through my career and learnt a lot about a healthy work life balance.
+          In my Bachelors Thesis titled "Orbital Effect of Magnetic Field on a Current Driven System" under Prof. Sumilan Banerjee, I studied Non-Hermitian PT-Symmetric quantum hamiltonian models used to describe nonequilibrium steady states of dissipative quantum systems.
+
+      - layout: left
+        title: Indian Institute of Science
+        caption: 2018 - 2019
+        sub_title: Master of Science in Physics
+        # quote: >
+        #   Established in 1909, IISc is India’s premier institute for advanced scientific and technological research and education. In 2018, IISc was selected as an Institution of Eminence (IoE) by the Government of India, and it consistently figures among the top Indian institutions in world university rankings.
+        description: | # this will include new lines to allow paragraphs
+          In my Masters Thesis titled "Time-dependent Density Functional Theory" under Prof. Manish Jain, I worked with implementating a time-dependent density functional theory module in anin-house python port of quantum espresso and applying it to study the response or the induced polarization when a time-dependent electric field is applied to a system.
 
     Comment: >
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
