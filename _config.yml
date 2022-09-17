@@ -69,7 +69,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          2019 ACM Gordon Bell Prize Finalist, the highest prize in Scientific Computing.
         description: | # this will include new lines to allow paragraphs
           Contributor to DFT-FE (C++/CUDA/MPI), a massively parallel finite-element based open-source code for material modeling using density functional theory (DFT). DFT-FE can handle periodic, non-periodic and semi-periodic calculations. It can further handle both pseudopotential (ONCV, Troullier-Martins) and all-electron (non-relativistic) calculations; XC functionals supported are LDA, GGA (including spin-polarized); Capabilities include ground-state calculations, structural relaxations (ionic, cell), ab-initio MD (NVE). Scalability tested on ~200,000 MPI tasks on many-core architectures and ~24,000 GPUs on hybrid CPU-GPU architectures.
 
@@ -100,7 +100,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           During my time at IISc I learnt most of my key skills that have taken me through my career and learnt a lot about a healthy work life balance.
 
-          # I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+    Comment: >
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: A Little More About Me
     layout: text
@@ -108,11 +109,12 @@ content:
       Alongside my interests in computer hardware some of my other interests and hobbies are:
       - Trekking
       - Photography
-      # - Knitting
-      # - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    Comment: >
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      # Look at this cool image
-      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Look at this cool image
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
