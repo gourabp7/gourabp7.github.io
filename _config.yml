@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Gourab received his B.Sc. (Research) and M.S. degrees in Physics from Indian Institute of Science, Bangalore. He is also the recipient of KVPY Fellowship (2014) and the Prime Minister's Research Fellowship (2021).
 
-  Most skilled in: <mark>CUDA C/C++</mark>, <mark>HIP</mark> <mark>C/C++</mark>, <mark>OpenMPI</mark> and <mark>Python</mark>
+  Most skilled in: <mark>CUDA C/C++</mark>, <mark>HIP</mark> <mark>C/C++</mark>, <mark>MPI</mark>, <mark>OpenMP</mark> and <mark>Python</mark>
 
 content:
   - title: Projects # Title for the section
