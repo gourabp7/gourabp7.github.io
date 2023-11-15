@@ -22,7 +22,7 @@ github_username:  gourabp7
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: gourab.7777
+linkedin_username: gourab-panigrahi-083939237
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -46,7 +46,7 @@ orcid_username: 0000-0001-8121-3320
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Gourab and I'm a PhD Student at the Department of Computational Data Sciences, Indian Institute of Science, Bangalore. My research focusses on developing hardware-aware computational algorithms and
   novel implementation procedures that can further accelerate quantum modeling of materials on extreme-scaling computing architectures using Finite Element discretization of Kohn-Sham Density Functional Theory equations.
