@@ -32,7 +32,7 @@ Studied Non-Hermitian PT-Symmetric Quantum Hamiltonian models used to describe n
 ## Experience
 
 Contributed to [**DFT-FE**](https://sites.google.com/umich.edu/dftfe) [**_(Das et al., 2022)_**](https://doi.org/10.1016/j.cpc.2022.108473) <br>
-**_(Winner of the [2023 ACM Gordon Bell Prize](https://www.acm.org/media-center/2023/november/gordon-bell-prize-2023), the highest prize in High Performance Computing)_**
+**_(Workhorse behind the [2023 ACM Gordon Bell Prize](https://www.acm.org/media-center/2023/november/gordon-bell-prize-2023))_**
 
 DFT-FE (C++/CUDA/MPI) is a massively parallel finite-element based open-source code for material modeling using density functional theory (DFT). DFT-FE can handle periodic, non-periodic and semi-periodic calculations. It can further handle both pseudopotential (ONCV, Troullier-Martins) and all-electron (non-relativistic) calculations; XC functionals supported are LDA, GGA (including spin-polarized); Capabilities include ground-state calculations, structural relaxations (ionic, cell), ab-initio MD (NVE). Scalability tested on ~200,000 MPI tasks on many-core architectures and ~64,000 GPUs on hybrid CPU-GPU architectures.
 
