@@ -2,7 +2,7 @@
 title: 'Publications'
 image: '/assets/GPU.png'
 # alt: 'Urara'
-# created: 2021-11-01
+created: 2021-11-03
 # updated: 2021-12-12
 tags:
   - 'High Performance Computing'

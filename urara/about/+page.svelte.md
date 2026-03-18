@@ -2,7 +2,7 @@
 title: 'About'
 image: '/assets/IISc.jpeg'
 # alt: 'Urara'
-# created: 2021-11-01
+created: 2021-11-04
 # updated: 2021-12-12
 tags:
   - 'ACM Gordon Bell Prize'
