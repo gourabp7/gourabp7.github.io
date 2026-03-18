@@ -1,10 +1,14 @@
 // Polyfill localStorage for Node builds (prevent @typescript/vfs error)
-if (typeof (globalThis as any).localStorage === 'undefined') {
+// Node 25+ has a built-in localStorage that requires --localstorage-file to work
+if (typeof (globalThis as any).localStorage === 'undefined' || typeof (globalThis as any).localStorage?.getItem !== 'function') {
+  const data: Record<string, string> = {};
   (globalThis as any).localStorage = {
-    getItem: (_k: string) => null,
-    setItem: (_k: string, _v: string) => {},
-    removeItem: (_k: string) => {},
-    clear: () => {}
+    getItem: (k: string) => Object.prototype.hasOwnProperty.call(data, k) ? data[k] : null,
+    setItem: (k: string, v: string) => { data[k] = String(v); },
+    removeItem: (k: string) => { delete data[k]; },
+    clear: () => { for (const k in data) delete data[k]; },
+    get length() { return Object.keys(data).length; },
+    key: (i: number) => Object.keys(data)[i] ?? null,
   }
 }
 

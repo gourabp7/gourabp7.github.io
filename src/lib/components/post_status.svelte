@@ -12,8 +12,7 @@
 
 <div class='flex font-semibold gap-1.5' class:md:mb-4={!preview && post.type !== 'article'}>
   <a
-    class='opacity-75 hover:opacity-100 hover:text-primary duration-500 ease-in-out p-author h-card'
-    class:hidden={preview}
+    class='opacity-75 hover:opacity-100 hover:text-primary duration-500 ease-in-out p-author h-card hidden'
     href={site.protocol + site.domain}
     rel='author'>
     {site.author.name}

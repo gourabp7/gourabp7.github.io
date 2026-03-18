@@ -57,9 +57,9 @@ Studied the variation in DOLP of light propagating through turbid media under Pr
 Handled the finances of and organized various events by [IISc ACM Student Chapter](https://iisc.acm.org/)
 
 **_Student Representative_** (2025 - 2026) <br>
-**IISc CDS Wellness Committee**
+**[IISc CDS Wellness Committee](https://cds.iisc.ac.in/internal-resources/department-wellness-committee/)**
 
-Supporting mental health and well-being of students of the department and organizing wellness sessions. [CDS Wellness Committee](https://cds.iisc.ac.in/internal-resources/department-wellness-committee/)
+Supporting mental health and well-being of students of the department and organizing wellness sessions.
 
 ---
 

@@ -1,5 +1,21 @@
 <script lang='ts'>
+  import Icon from '@iconify/svelte'
   import { site } from '$lib/config/site'
+
+  /** Convert UnoCSS icon class (i-simple-icons-github) to Iconify name (simple-icons:github) */
+  function toIconifyName(cls: string): string {
+    // Remove leading 'i-', split on first '-' after prefix to get collection and icon name
+    const withoutPrefix = cls.replace(/^i-/, '')
+    const parts = withoutPrefix.split('-')
+    // Collection is usually first two parts (e.g. simple-icons), icon is the rest
+    if (parts[0] === 'simple' && parts[1] === 'icons') {
+      return `simple-icons:${parts.slice(2).join('-')}`
+    }
+    if (parts[0] === 'heroicons') {
+      return `heroicons-${parts[1]}:${parts.slice(2).join('-')}`
+    }
+    return `${parts[0]}:${parts.slice(1).join('-')}`
+  }
 </script>
 
 <div
@@ -33,7 +49,7 @@
               rel={rel ?? 'me noopener noreferrer external'}
               target='_blank'>
               {#if icon}
-                <span class='{icon} !w-5 !h-5'>{icon}</span>
+                <Icon icon={toIconifyName(icon)} width='20' height='20' />
               {/if}
               {#if text}
                 {text}
@@ -42,7 +58,7 @@
           {:else}
             <button class='btn btn-sm btn-ghost normal-case gap-2' class:btn-square={!text}>
               {#if icon}
-                <span class='{icon} !w-5 !h-5'>{icon}</span>
+                <Icon icon={toIconifyName(icon)} width='20' height='20' />
               {/if}
               {#if text}
                 {text}

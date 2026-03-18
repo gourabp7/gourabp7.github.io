@@ -125,7 +125,7 @@
     ? 'btn-accent shadow-lg'
     : 'btn-ghost bg-base-100/30 md:bg-base-200/30'}"
   class:opacity-100={scrollY}
-  class:translate-y-24={!pin || scrollY === 0}
+  class:translate-y-24={scrollY === 0}
   id='totop'
   on:click={() => window.scrollTo(0, 0)}>
   <!-- https://daisyui.com/blog/how-to-update-daisyui-4/#3-all--focus-colors-are-removed -->
