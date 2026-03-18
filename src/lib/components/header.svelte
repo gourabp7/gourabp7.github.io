@@ -62,11 +62,16 @@
     <div class='navbar' in:fly={{ delay: 300, duration: 300, x: -50 }} out:fly={{ duration: 300, x: -50 }}>
       <div class='navbar-start'>
         {#if headerConfig.nav}
-          <Nav nav={headerConfig.nav} {path} {pin} {scrollY} {title} />
+          <div class='lg:hidden'>
+            <Nav nav={headerConfig.nav} {path} {pin} {scrollY} {title} />
+          </div>
         {/if}
         <a class='btn btn-ghost normal-case text-lg' href='/'>{site.title}</a>
       </div>
       <div class='navbar-end'>
+        {#if headerConfig.nav}
+          <Nav nav={headerConfig.nav} {path} {pin} {scrollY} {title} />
+        {/if}
         {#if headerConfig.search}
           <button aria-label='search' class='btn btn-square btn-ghost' on:click={() => (search = !search)} tabindex='0'>
             <span class='i-heroicons-outline-search' />
