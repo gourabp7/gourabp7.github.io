@@ -28,6 +28,10 @@ export const site: SiteConfig = {
         link: 'https://dl.acm.org/profile/99661043822'
       },
       {
+        icon: 'i-simple-icons-dblp',
+        link: 'https://dblp.org/pid/359/5652'
+      },
+      {
         icon: 'i-simple-icons-gmail',
         link: 'mailto:pgourab@iisc.ac.in'
       }
