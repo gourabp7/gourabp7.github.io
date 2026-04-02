@@ -13,7 +13,7 @@ export const site: SiteConfig = {
       },
       {
         icon: 'i-simple-icons-googlescholar',
-        link: 'https://scholar.google.com/citations?user=Cn4q0OQAAAAJ&hl=en'
+        link: 'https://scholar.google.com/citations?user=Cn4q0OQAAAAJ'
       },
       {
         icon: 'i-simple-icons-linkedin',
