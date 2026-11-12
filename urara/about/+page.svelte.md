@@ -11,7 +11,7 @@ tags:
 
 <p style="text-align:center;">Main Building at IISc, Bangalore</p>
 
-Hi, my name’s Gourab and I’m a PhD Student working under supervision of [Prof. Phani Motamarri](https://sites.google.com/view/matrix-lab/bio-of-the-pi) at [MATRIX Lab](https://sites.google.com/view/matrix-lab), [Department of Computational and Data Sciences](https://cds.iisc.ac.in), [Indian Institute of Science (IISc), Bangalore](https://iisc.ac.in). My research focuses on developing hardware-aware computational algorithms and novel implementation techniques to accelerate large-scale iterative eigenvalue and linear solvers on heterogenous architectures. This includes developing matrix-free methods, mixed-precision strategies, compressed basis techniques and communication avoidance algorithms. These procedures can be applied to accelerate solvers employed in various fields, in particular, the quantum modeling of materials which are solved on extreme-scaling computing architectures using finite element discretization of Kohn-Sham density functional theory equations.
+Hi, my name’s Gourab and I’m a PhD Student working under supervision of [Prof. Phani Motamarri](https://sites.google.com/view/matrix-lab/bio-of-the-pi) at [MATRIX Lab](https://sites.google.com/view/matrix-lab), [Department of Computational and Data Sciences](https://cds.iisc.ac.in), [Indian Institute of Science (IISc), Bangalore](https://iisc.ac.in). My research focuses on developing hardware-aware computational algorithms and novel implementation techniques to accelerate large-scale iterative eigenvalue and linear solvers on heterogenous architectures. This includes developing matrix-free methods, mixed-precision strategies, compressed basis techniques, communication avoidance algorithms, fast diagonalization and hybrid Schwarz preconditioners. These procedures can be applied to accelerate solvers employed in various fields, in particular, the quantum modeling of materials which are solved on extreme-scaling computing architectures using finite element discretization of Kohn-Sham density functional theory equations.
 
 ---
 
@@ -20,7 +20,7 @@ Hi, my name’s Gourab and I’m a PhD Student working under supervision of [Pro
 **_M.S. in Physics_** (2018-2019) <br>
 **Indian Institute of Science, Bangalore**
 
-Implementated a time-dependent density functional theory module in an in-house python port of quantum espresso and applying it to study the response or the induced polarization when a time-dependent electric field is applied to a system. Masters Thesis titled “_Time-dependent Density Functional Theory_” under Prof. Manish Jain.
+Implemented a time-dependent density functional theory module in an in-house python port of quantum espresso and applying it to study the response or the induced polarization when a time-dependent electric field is applied to a system. Masters Thesis titled “_Time-dependent Density Functional Theory_” under Prof. Manish Jain.
 
 **_B.Sc. (Research) in Physics (First Class)_** (2014-2018) <br>
 **Indian Institute of Science, Bangalore**
