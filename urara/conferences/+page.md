@@ -36,8 +36,8 @@ created: 2021-11-02
 <img src="/assets/eccomas.jpeg"/>
 </div>
 
-**Hardware aware matrix-free approach for accelerating finite-element discretized eigenvalue problems: Application to large-scale Kohn-Sham density functional theory** <br>
-**_(The 9th European Congress on Computational Methods in Applied Sciences and Engineering Congress (ECCOMAS) 2024, Lisbon, Portugal)_**
+**Hardware-aware matrix-free approach for accelerating finite-element discretized eigenvalue problems: Application to large-scale Kohn-Sham density functional theory** <br>
+**_(The 9th European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS) 2024, Lisbon, Portugal)_**
 
 ---
 
@@ -45,7 +45,7 @@ created: 2021-11-02
 <img src="/assets/ighasc.jpeg"/>
 </div>
 
-**Fast hardware-aware matrix-free algorithm for large-scale finite element discretized eigenvalue problems <span style="color:DodgerBlue">(Best Poster Award)</span>** <br>
+**Fast hardware-aware matrix-free algorithm for large-scale finite-element discretized eigenvalue problems <span style="color:DodgerBlue">(Best Poster Award)</span>** <br>
 **_(Indo-German Workshop on Hardware-aware Scientific Computing (IGHASC) 2024, Heidelberg, Germany)_**
 
 ---
@@ -54,7 +54,7 @@ created: 2021-11-02
 <img src="/assets/pmrf_symposium.jpg"/>
 </div>
 
-**Fast hardware-aware matrix-free algorithm for large-scale finite element discretized eigenvalue problems** <br>
+**Fast hardware-aware matrix-free algorithm for large-scale finite-element discretized eigenvalue problems** <br>
 **_(PMRF Symposium 2025, IIT Hyderabad, India)_**
 
 ---
@@ -64,5 +64,5 @@ created: 2021-11-02
 - **An Efficient Hardware-Aware Matrix-Free Implementation on GPUs** <br>
 **_NVIDIA GTC 2022 - CUDA Developers Session_**
 
-- **Hardware aware matrix-free approach for accelerating FE discretized eigenvalue problems: Application to large-scale Kohn-Sham density functional theory** <br>
+- **Hardware-aware matrix-free approach for accelerating FE discretized eigenvalue problems: Application to large-scale Kohn-Sham density functional theory** <br>
 **_MFEM Community Workshop 2024_**
